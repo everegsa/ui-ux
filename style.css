@@ -1,0 +1,50 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+background-color: rgb(190, 190, 248);
+}
+
+li{
+    list-style-type:square;
+} 
+
+.p1{
+    color: rgb(212, 236, 168);
+    background-color: brown;
+    margin-bottom: 60px;
+    padding: 20px;
+    text-indent:20px;
+    line-height: 140%;
+}
+
+.p2{
+    font-weight:bold;
+    border: 2px solid rgb(111, 0, 255);
+    border-radius: 20px;
+    padding: 20px;
+    text-indent: 20px;
+    line-height: 170%;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    border-bottom: 1px dashed  rgb(32, 165, 60) ;
+}
+
+.p3{
+    line-height: 163% ;
+    margin-top: 78 px ;
+    text-indent:100px
+
+}
+
+div{
+    border: 2 px solid rgb(53, 11, 27) ;
+    background-color: rgb(218, 181, 195);
+    padding : 20px;
+    margin-bottom: 30px;
+    font-family:Georgia;
+    text-align: justify;
+    text-decoration:dotted  rgb(218, 63, 122);
+    text-rendering: geometricPrecision: 98%;
+    border-radius: 25px;
+    
+}
