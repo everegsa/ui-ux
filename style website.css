@@ -30,6 +30,27 @@ background-color: rgb(231, 188, 218);
 .i4{
     border: 3px;
     border-radius: 25px;
-   
-
 }
+
+*{
+    color: rgb(105, 235, 235); 
+ }
+ 
+ ul li {
+     color: beige;
+ }
+ 
+ .p1{
+     color: blanchedalmond;
+ }
+ #pink, #green, #black{
+     color: rgb(116, 228, 19);
+ }
+ img.i1{
+     accent-color:rgb(116, 19, 228) ;
+ }
+ h3,h2{
+    color: rgb(207, 47, 47);
+ }
+ 
+
