@@ -1,0 +1,14 @@
+@font-face {
+    font-family:"RubikBubbles" ;
+    src: url(RubikBubbles-Regular.ttf);
+} 
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #044319e8;
+    box-sizing: border-box;
+    font-family: RubikBubbles;
+}
+    
