@@ -1,0 +1,58 @@
+.main{
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.i1{
+    max-width: 50%;
+    
+}
+.i2{
+    max-width: 25%;
+    height: 315px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+.i3{
+    max-width: 25%;
+    height: 315px; 
+}
+.i4{
+    max-width: 25%;
+    height: 315px;
+}
+.i5{ 
+    max-width: 25%;
+    height: 315px;
+}
+.i6{
+    max-width: 25%;
+    height: 315px; 
+}
+.i7{
+    max-width: 25%;
+    height: 315px;
+}
+.i8{
+    max-width: 25%;
+    height: 315px;
+}
+body{
+    background-color: beige;
+}
+footer{
+    padding-top: 70px;
+    text-align: center;
+}
+ a{
+   cursor: help;
+   border: 3px solid;
+   background-color:rgb(255, 255, 255) ;
+   border-color: rgb(235, 203, 203);
+   font-size: 25px;
+   text-decoration: none;
+   color: black;
+ }
