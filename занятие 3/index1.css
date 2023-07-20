@@ -1,14 +1,41 @@
-@font-face {
-    font-family:"RubikBubbles" ;
-    src: url(RubikBubbles-Regular.ttf);
+.logo title{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: initial;
+    font-weight:bold;
+    font-size: 20px;
 } 
-
+/*HEADER*/
+/*border-box*/
 .header {
     width: 100%;
     color: white;
     padding: 20px;
     background: #044319e8;
     box-sizing: border-box;
-    font-family: RubikBubbles;
 }
-    
+
+*{
+    margin: 0;
+    padding: 0;
+}    
+.menu-item{
+list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container{
+    max-width: 1715px;
+    padding: 15px;
+    margin: auto;
+}
+.menu{
+    margin-left: 50px;
+}
