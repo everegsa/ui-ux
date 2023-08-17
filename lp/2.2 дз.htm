@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       /* Условие: пусть в переменную season пользователь вводит название времени года (Зима, Весна, Лето, Осень). 
+        Определите, в какую страну ( , Испания, Мальдивы, Ирландия), попадёт пользователь, когда укажет желаемую пору.*/
+    </style>
+    <h1>Времена года</h1>
+    <script>
+        var season = prompt('Введите название времени года:'+'\n(Зима, Весна, Лето, Осень). ');
+        if (season==='Зима'){
+            var country='Антарктида';
+        }else if (season==='Весна'){
+            var country='Испания';
+        }else if (season==='Лето'){
+            var country='Мальдивы';
+        }else if (season==='Осень'){
+            var country='Ирландия';
+        }else{
+            alert('Возможно вы написали не верно.')
+        }        
+        alert(country);
+           
+            
+
+    </script>
+</body>
+</html>
